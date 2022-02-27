@@ -1,0 +1,9 @@
+mkdir tempdir && cd tempdir
+wget -q https://github.com/TgCatUb/nekopack/archive/master.zip
+unzip -qq *.zip && rm -f *.zip
+mv * deployer
+mv deployer ../ && cd ..
+rm -r -f tempdir
+cd deployer
+echo "Deploying Bot...."
+bash start
