@@ -6,4 +6,4 @@ mv deployer ../ && cd ..
 rm -r -f tempdir
 cd deployer
 echo "Deploying Bot...."
-bash start
+bash catub
